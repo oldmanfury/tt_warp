@@ -1,5 +1,5 @@
 # tt_warp
-a simple puredata vinylizer and oled visualizer for the terminal tedium
+a simple puredata vinylizer and OLED visualizer for the terminal tedium
 
 You don’t need an OLED for this to work. OLED options may be omitted
 
@@ -12,13 +12,19 @@ sudo /home/pi/pd-0.46-7/bin/pd -nogui -rt /home/pi/pdpatch/tt-warp.pd |& python 
 The six knobs are:
 
 1: pops
+
 2: craclkes
+
 3: hiss
+
 4: amplitude of pitch warble.  Warble is set to 33 1/3 rpm.  I like LP's.
+
 5: bandpass center
+
 6: bandpass Q
 
-5 and 6 can lead to distortion, ringing, etc.  I use them to thin the sound.
+
+The bandpass is the stock puredata one - it can lead to distortion, ringing, etc.  I use it to thin the sound.
 
 Help? Email me at logo64@gmail.com
 
@@ -28,6 +34,6 @@ Configuring i2c https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-
 
 Adafruit installation instructions: https://learn.adafruit.com/adafruit-pioled-128x32-mini-oled-for-raspberry-pi/usage Note section on “Speeding up the display”
 
-Search ebay for OLED 128 32 I2C, and find the 4-pins on the side version.  These get cheaper every day.
+Search ebay for OLED 128 32 I2C, and find the 4-pins on the left side version.  These get cheaper every day.
 
 eBay source for 128x32 OLED (USA seller) http://www.ebay.com/itm/0-91-128x32-I2C-IIC-OLED-LCD-White-Display-DIY-Module-3-3V-5V-For-PIC-Arduino/172683183086
